@@ -16,6 +16,7 @@
 <!--		<jme3_v>3.2.0-stable</jme3_v>-->
 		<jme3_v>3.3.0-beta1</jme3_v>
 		<matsim.version>12.0-SNAPSHOT</matsim.version>
+		<!--<matsim.version>13.0</matsim.version>-->
 		<geotools.version>21.1</geotools.version>
 <!--		<geotools.version>22.3</geotools.version>-->
 	</properties>
@@ -77,11 +78,11 @@
 <!--			<artifactId>jogl-all-main</artifactId>-->
 <!--			<version>2.3.2</version>-->
 <!--		</dependency>-->
-		<!--<dependency>-->
-		<!--	<groupId>org.matsim</groupId>-->
-		<!--	<artifactId>matsim</artifactId>-->
-		<!--	<version>${matsim.version}</version>-->
-		<!--</dependency>-->
+<!--		<dependency>
+			<groupId>org.matsim</groupId>
+			<artifactId>matsim</artifactId>
+			<version>${matsim.version}</version>
+		</dependency>-->
 <!--		<dependency>-->
 <!--			<groupId>${jme3_g}</groupId>-->
 <!--			<artifactId>jme3-core</artifactId>-->
@@ -135,6 +136,12 @@
 			<artifactId>javafx-web</artifactId>
 			<version>11.0.2</version>
 		</dependency>
+		<!--<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>compile</scope>
+		</dependency>-->
 	</dependencies>
 
 	<build>
